@@ -18,6 +18,7 @@ cat Друзья_человека.txt
 # Переименование файла
 mv Друзья_человека.txt Друзья_человека.txt
 ```
+![1](https://github.com/user-attachments/assets/f58adc35-5d71-4482-a33c-fd2879b73dcd)
 
 ### 2. Создание директории и перемещение файла
 
@@ -28,6 +29,7 @@ mkdir Животные
 # Перемещение файла в директорию
 mv Друзья_человека.txt Животные/
 ```
+![2](https://github.com/user-attachments/assets/c02aeec1-09bf-4db2-b543-aff3f1db6be1)
 
 ### 3. Подключение репозитория MySQL и установка пакета
 
@@ -54,6 +56,7 @@ sudo apt-get install mysql-server
 
 systemctl status mysql
 ```
+![3](https://github.com/user-attachments/assets/33337979-a1bc-4549-adb9-49f28536156a)
 
 ### 4. Установка и удаление deb-пакета с помощью dpkg
 
@@ -72,6 +75,7 @@ sudo dpkg -r mysql-connector-j
 
 sudo apt-get autoremove
 ```
+![4](https://github.com/user-attachments/assets/7b80bfd3-9ed6-4bc4-a7d1-42e5f1f0a819)
 
 ### 5. Вывод истории команд в терминале Ubuntu
 
@@ -80,6 +84,7 @@ sudo apt-get autoremove
 
 history
 ```
+![5](https://github.com/user-attachments/assets/38e7bf66-c84e-4b58-97e2-e283e4c5fd92)
 
 ### 6. Диаграмма классов (текстовое описание)
 
