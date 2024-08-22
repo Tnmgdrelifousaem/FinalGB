@@ -307,3 +307,27 @@ FROM young_animal;
 ### 14. Программа для реестра домашних животных
 
 ### 15. Класс Счетчик с использованием try-with-resources
+```java
+class Счетчик implements AutoCloseable {
+    private int count = 0;
+
+    public void add() {
+        count++;
+    }
+
+    @Override
+    public void close() throws Exception {
+        // Логика закрытия ресурса
+        if (count == 0) {
+            throw new Exception("Счетчик не использовался.");
+        }
+    }
+}
+
+// Использование счетчика в блоке try-with-resources
+try (Счетчик счетчик = new Счетчик()) {
+    счетчик.add();
+} catch (Exception e) {
+    System.out.println(e.getMessage());
+}
+```
